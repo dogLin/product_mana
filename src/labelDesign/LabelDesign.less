@@ -1,0 +1,66 @@
+.tool_icon {
+    font-size: 50px;
+    display: block;
+    cursor: pointer;
+}
+
+.design {
+    .left {
+        width: 70px;
+        border: 1px solid #d2c1c1;
+        margin-right: 10px;
+        float: left;
+        .tool_title {
+            height: 20px;
+            text-align: center;
+            background: #f19898;
+            color: #fff;
+        }
+        .tool_content {
+            padding: 5px 10px;
+        }
+    }
+    .canvas {
+        border: 1px solid #d5cfcf;
+        box-shadow: 0 0px 7px 0px black;
+        float: left;
+    }
+    .right {
+        margin-left: 10px;
+        width: 180px;
+        border: 1px solid #d2c1c1;
+        margin-right: 10px;
+        float: left;
+        min-height: 250px;
+        .right_title {
+            height: 20px;
+            text-align: center;
+            background: #f19898;
+            color: #fff;
+        }
+        .prperty_item {
+            display: flex;
+            margin: 10px 5px;
+            mat-select {
+                border: 1px solid #999898;
+                height: 30px;
+                margin-left: 15px;
+                text-align: center;
+                width: 80%;
+            }
+            input {
+                width: 100%;
+                margin-left: 15px;
+            }
+            label {
+                min-width: 60px;
+            }
+        }
+        .delete {
+            margin: 10px calc(50% - 33px);
+        }
+    }
+}
+input:read-only{
+    background: #c2c2c2;
+  }

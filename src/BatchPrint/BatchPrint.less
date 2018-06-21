@@ -1,0 +1,29 @@
+.border{
+    height: calc(~"100vh - 120px");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .item{
+        width: 100px;
+        height: 100px;
+        background: rgb(0, 162, 255);
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        &:first-child{
+            margin-right: 50px;
+        }
+        .icon{
+            margin-top: 10px;
+            font-size: 40px;
+            display: block;
+        }
+        a {
+            color: #fff;
+            &:active, &:hover, &:link {
+                text-decoration: none;
+            }
+        }
+    }
+}
